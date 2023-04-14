@@ -373,7 +373,7 @@ def F_Pryamid(x,y,z,xc,yc,zc,m,theta):
     return(d)
 
 def DF_Pryamid_x(x,y,z,xc,yc,zc,m,theta): 
-    
+     ''' derivative wrt x for an ADF for a pyramid'''   
     
     n1=[0,0,-1]
     p1=[0,0,zc]
@@ -428,7 +428,7 @@ def DF_Pryamid_x(x,y,z,xc,yc,zc,m,theta):
 
 
 def DF_Pryamid_y(x,y,z,xc,yc,zc,m,theta): 
-    
+    ''' derivative wrt y for an ADF for a pyramid'''     
     
     n1=[0,0,-1]
     p1=[0,0,zc]
@@ -483,7 +483,7 @@ def DF_Pryamid_y(x,y,z,xc,yc,zc,m,theta):
 
 
 def DF_Pryamid_z(x,y,z,xc,yc,zc,m,theta): 
-    
+    ''' derivative wrt z for an ADF for a pyramid'''   
     
     n1=[0,0,-1]
     p1=[0,0,zc]
